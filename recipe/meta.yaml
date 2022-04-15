@@ -1,5 +1,5 @@
 {% set name = "blitz-bayesian-pytorch" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    sha256: ebe805f5896167ee8cd76d98ec039aed696e3c498660fcab6606152dc99ac465
+    sha256: 0ef8373d438cc895de5c260dd0d82d8d83ec33ad347b118ddc1525d2b0cc21dd
   - url: https://raw.githubusercontent.com/piEsposito/blitz-bayesian-deep-learning/{{ version }}/requirements.txt
     sha256: e5f8c678b645b6e4a067df518372adec4fa03c45c5dd68211aed3316d6299f02
 
